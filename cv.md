@@ -11,6 +11,7 @@ My goal at the moment is to become a highly qualified IT specialist.
 * Java
 * HTML
 * CSS
+* GIT
 ## Code example
 ```
 function multiply(a, b){
