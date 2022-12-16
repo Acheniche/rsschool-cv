@@ -1,21 +1,76 @@
 body{
-background-color: #b0bec5;
+background-color: #d7ccc8;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
 }
-h1{
-    font-size: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+aside{
+    background-color: #6F2232;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    height: 280px;
+    width: 190px;
+}
+nav{
+    padding: 10px 10px 10px 10px;
+}
+:link{
+    color: grey;
+}
+:link:active{
+    color: grey;
+}
+:visited{
+    color: grey;
+}
+.menu{
     text-align: center;
 }
+main{
+   display: grid;
+   grid-template-columns: 0px 800px;
+}
+.text{
+    padding-left: 235px;
+}
+header{
+    background-color: #6F2232;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    color: #1A1A1D;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 200px 500px;
+}
+body{
+    color: aliceblue;
+    background-color: #1A1A1D;
+    position: inherit;
+}
 h2{
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    text-decoration: underline;
+    color: aliceblue;
 }
-p{
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+.year{
+    text-align: center;
+    font-size: 20px;
 }
-li{
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+.footer{
+    background-color: #4E4E50;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-code{
-    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+.rslogo{
+    text-align: right;
+    margin-right: 190px;
+}
+.github{
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.center{
+    max-width: 1300px;
+    margin: auto;
 }
